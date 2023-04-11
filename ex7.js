@@ -15,5 +15,11 @@ let numJuguetes = 5;
 let numHorasSueño = 16;
 let jugandoAhora = "pelota";
 
-let historiaGato =`Mi gato se llama ${nombreGato} tiene ${edadGato} y pesa ${pesoGato} kilos. Es de color ${colorGato} y tiene una personalidad ${personalidadGato}. Le encanta comer ${comidaFavorita} y tiene ${numJuguetes} juguetes diferentes. Necessita dormir al menos ${numHorasSueño} horas al día. Ahora mismo está jugando con su ${jugandoAhora}. ¡Es un gato muy feliz!`
+let historiaGato =`Mi gato se llama ${nombreGato.toUpperCase()} tiene ${edadGato} y pesa ${pesoGato} kilos. Es de color ${colorGato} y tiene una personalidad ${personalidadGato}. Le encanta comer ${comidaFavorita} y tiene ${numJuguetes} juguetes diferentes. Necessita dormir al menos ${numHorasSueño} horas al día. Ahora mismo está jugando con su ${jugandoAhora}. ¡Es un gato muy feliz! ${saluda()}`
 console.log(historiaGato);
+
+
+// Dentro del template literals lo que hace es ''EVALUAR'', puedes poner una variable, poner como en nombre gato, una variable con sus funciones, o incluso, evaluar entre el simbolo del dolar una función.
+function saluda() {
+    return "hola hola!";
+}
