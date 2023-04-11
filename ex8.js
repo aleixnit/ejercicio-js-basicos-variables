@@ -3,22 +3,22 @@
 let texto = "singulars"; // Si cambiaramos esta palabra, debería seguir funcionando todos los ejercicios
 
 console.log("Ejercicio 1: Longitud del string"); 
-console.log();  // por ejemplo, aquí, entre los paréntesis, tenemos que poner: texto.length
+console.log(texto.length);  // por ejemplo, aquí, entre los paréntesis, tenemos que poner: texto.length
 
 console.log("Ejercicio 2: Primer carácter del string"); 
-console.log(); 
+console.log(texto[0]); 
 
 console.log("Ejercicio 3: Último carácter del string"); 
-console.log(); 
+console.log(texto[8]); 
 
 console.log("Ejercicio 4: Primeros 3 caracteres del string"); 
-console.log(); 
+console.log(texto.slice(0, 3)); 
 
 console.log("Ejercicio 5: Últimos 3 caracteres del string"); 
-console.log(); 
+console.log(texto.slice(6, 9)); 
 
 console.log("Ejercicio 6: String en mayúsculas"); 
-console.log(); 
+console.log(texto.toUpperCase()); 
 
 console.log("Ejercicio 7: String en minúsculas"); 
 console.log(); 

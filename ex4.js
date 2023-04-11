@@ -17,6 +17,10 @@
  */
 
 let numeroGatos = 10;
+let proximaPareja = "Maria";
+let paisSoñado = "Honolulu";
+let trabajoEnsueño = "Jefe supremo";
 
-let futuro = "tendréis " + numeroGatos + " gatos";
+const futuro = `Tu estarás en ${paisSoñado} trabajando de ${trabajoEnsueño} y tu pareja será ${proximaPareja} y tendreis ${numeroGatos} gatos`;
+
 console.log(futuro);

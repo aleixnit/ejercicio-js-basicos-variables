@@ -12,7 +12,17 @@
  * 
  */
 
-let numeroPi = Math.PI
+// Definir el radio del círculo
+const radio = 3;
+
+// Calcular el área del círculo
+const area = Math.PI * radio ** 2;
+
+// Redondear el área a dos decimales
+const numeroPi = area.toFixed(2);
+
+// Mostrar el mensaje con el resultado
+console.log(`El área de un círculo de radio ${radio} es de ${numeroPi} m2.`);
 console.log("Valor de PI:", numeroPi)
 
 /**
