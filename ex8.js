@@ -21,13 +21,13 @@ console.log("Ejercicio 6: String en mayúsculas");
 console.log(texto.toUpperCase()); 
 
 console.log("Ejercicio 7: String en minúsculas"); 
-console.log(); 
+console.log(texto.toLowerCase()); 
 
 console.log("Ejercicio 8: Devuelve el índice del primer carácter 's'"); 
-console.log(); 
+console.log(texto.indexOf('s')); 
 
 console.log("Ejercicio 9: Posición del último carácter 's'"); 
-console.log(); 
+console.log(texto.indexOf('s', 1)); 
 
 console.log("Ejercicio 10: String en orden inverso"); 
-console.log(); 
+console.log(texto.split('').reverse().join('')); 
